@@ -13,7 +13,7 @@ weatherForm.addEventListener('submit',(e)=>
     
     msgs.textContent = 'Loading.....'
     msgs2.textContent = ''
-    fetch("http://localhost:3000/weather?address="+loc.toString()).then((response)=>
+    fetch("/weather?address="+loc.toString()).then((response)=>
 {
     response.json().then((p_response)=>
     {
@@ -32,3 +32,4 @@ weatherForm.addEventListener('submit',(e)=>
 })
 
 })
+//http://localhost:3000
