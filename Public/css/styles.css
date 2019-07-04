@@ -1,0 +1,97 @@
+/*h1
+{
+    color : teal;
+}*/
+img
+{
+    width : 170px;
+    margin-left:140px;
+    margin-top:20px
+
+}
+body
+{
+    font-family: 'arial';
+    color : #333333;
+    margin-left:100;
+    margin-top:70;
+    max-width: 900px;
+    background: alpha;
+    background-image:url("weather.jpg");
+    background-size: 1300px;
+    filter:alpha(opacity=1)
+}
+
+footer
+{
+    color: #888888;;
+    border-top: 1px solid #999999;
+    margin-top:400px;
+
+}
+h1
+{
+    font-size: 64px;
+    margin-left:130px
+}
+a
+{
+    color:whitesmoke;
+    text-decoration: none;
+    padding-right:15px;
+    margin-top:5px;
+}
+header
+{
+    margin-left:140px;
+    font-size: 18px;
+
+}
+
+#msg1
+{
+    font-size: 30px;
+    margin-left:140px;
+    color: rgb(42, 77, 77);
+    margin-top:57px;
+   
+}
+#msg2
+{
+    font-size: 20px;
+    margin-left:140px;
+    color: rgb(46, 83, 83);
+    margin-top:8px;
+    
+}
+
+p
+{
+    margin-left:130px;
+    color: rgb(46, 83, 83);
+    margin-top:30px;
+}
+a:hover
+{
+    color: #888888;;
+}
+form
+{
+    margin-left : 496px;
+    margin-top  : -35px;    
+}
+input
+{
+    border : 3px solid #cccccc;
+    padding : 8px;
+}
+button
+{
+    cursor : pointer;
+    border : 2px solid #888888;
+    background : #888888;
+    color : white;
+    padding : 8px;
+    
+}
+  
